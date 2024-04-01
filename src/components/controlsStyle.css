@@ -1,0 +1,33 @@
+/* controlsStyle.css */
+
+/* Стили для выпадающего списка */
+.custom-dropdown {
+  background-color: #3498DB; /* Тёмный фон для выпадающего списка */
+  color: #ffffff; /* Белый цвет текста */
+  padding: 5px; /* Отступ внутри списка */
+  border: none; /* Убираем стандартную рамку */
+  border-radius: 4px; /* Скругляем углы */
+  margin-bottom: 10px; /* Отступ снизу */
+}
+
+/* Стили для опций внутри выпадающего списка */
+.custom-dropdown option {
+  background-color: #3498DB; /* Более светлый фон для опций */
+  color: #ffffff; /* Белый цвет текста */
+}
+
+/* Стили для кнопки */
+.custom-button {
+  background-color: #3498DB; /* Синий фон для кнопки */
+  color: #ffffff; /* Белый цвет текста */
+  border: none; /* Убираем стандартную рамку */
+  padding: 5px 5px; /* Отступ внутри кнопки */
+  margin: -4px 0; /* Отступ вокруг кнопки */
+  border-radius: 4px; /* Скругляем углы */
+  cursor: pointer; /* Изменяем курсор, чтобы показать, что это кнопка */
+}
+
+/* Эффект при наведении на кнопку */
+.custom-button:hover {
+  background-color: #2980B9; /* Темно-синий фон при наведении */
+}
